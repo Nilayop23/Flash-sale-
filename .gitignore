@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Environment variables (keep .env.example committed)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linters / type checkers
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and local data
+*.log
+pgdata/
+
+# Frontend (later)
+node_modules/
